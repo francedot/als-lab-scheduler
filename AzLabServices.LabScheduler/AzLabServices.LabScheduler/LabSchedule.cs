@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AzureLabServices.LabScheduler
+namespace AzLabServices.LabScheduler
 {
     public class LabSchedule
     {

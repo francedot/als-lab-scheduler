@@ -4,12 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace AzureLabServices.LabScheduler
+namespace AzLabServices.LabScheduler
 {
-    //This is just a POC
-    //As of now, recurrent events are splitted into one-time-only events
-    //TODO We need to add the logic here for specifying recurrence patterns (daily, weekly..) based on the parameters supported by Lab Services APIs
-    //TODO Also need to add support to no-end events. For now I am limiting getting occurrences up to 20 years
     public class ScheduleHelper
     {
         public List<LabSchedule> GetLabScheduleFromICalendar(string icsFilePath)
